@@ -1,0 +1,202 @@
+@import url('./colores.css');
+
+* {
+    /* width: auto;
+    height: auto; */
+}
+
+.logo {
+    width: 50px;
+}
+
+
+.corona {
+    width: 100%;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+    position: relative; /* If you want text inside of it */
+    background:var(--color-nav);
+    opacity: 50%;
+    border: 6px;
+    margin-top:  6%;
+    margin-left: 12%;
+    margin-right: 2%;
+    margin-bottom: 1px;
+    border-style: dotted;
+    display:inline-block;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+
+.usuarioimg {
+    width: 50px;
+    height: 50px;
+}
+
+header {
+    /*flex: horizontal*/
+    display: flex;
+    /*altura minima*/
+    min-height: 90px;
+    background-color: var(--color-nav);
+    /* background-color: rgb(30, 126, 62); */
+    /*eje principal*/
+    justify-content: space-between;
+    /*alinear verticalmente*/
+    align-items: center;
+    padding: 10px;
+}
+
+
+
+
+.login {
+    height: 85px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/*cudrado pequeño*/
+.cuadrado {
+    vertical-align:top;
+    width: 100%;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+    position: relative; /* If you want text inside of it */
+    background: wheat;
+    border: 3px;
+    margin-top:  6%;
+    margin-left: 12%;
+    margin-right: 2%;
+    margin-bottom: 0px;
+    /*padding: 2%;*/
+    border-style: dotted;
+    display:inline-block;
+    /*bottom: 380px;*/
+    /*right: 1250px;*/
+    /*transform: rotate(40deg);*/
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+/*cudrado grande*/
+.cuadrado2 {
+    vertical-align: top;
+    width: 100%;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+    position: relative; /* If you want text inside of it */
+    background: wheat;
+    border: 3px;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    /*padding: 2%;*/
+    border-style: dotted;
+    display:inline-block;
+    /*bottom: 180px;*/
+    /*right: 1100px;*/
+
+    /*rotar imagen*/
+    /*transform: rotate(40deg);*/
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.rectangulo {
+    text-align: center;
+    width: 30px;
+    height: 40px;
+    background: wheat;
+    border: 1px solid black;
+    
+    /* position: fixed;*/
+    display: block;
+    bottom: 442px;
+    right: 860px;
+}
+
+.rectangulo2 {
+    width: 30px;
+    height: 100px;
+    background: blue;
+    border: 1px solid black;
+    /*position: fixed;*/
+    display: block;
+    /*bottom: 343px;
+    right: 860px;*/
+}
+
+.rectangulo3 {
+    text-align: center;
+    width: 30px;
+    height: 40px;
+    background: wheat;
+    border: 1px solid black;
+    /*position: fixed;*/
+    display:block;
+    /*bottom: 442px;
+    right: 900px;*/
+}
+
+.rectangulo4 {
+    width: 30px;
+    height: 100px;
+    background: red;
+    border: 1px solid black;
+    /*position: fixed;*/
+    display:block;
+    bottom: 343px;
+    right: 900px;
+}
+
+.comentarios {
+    text-align: center;
+    font-family: 'Times New Roman';
+    background-color: darkseagreen;
+    border: 3px;
+    border-style: dotted;
+    /*position: fixed;*/
+    display: inline-block;
+    /*bottom: 50%;*/
+    /*right: 50%;*/
+    margin:3px;
+    padding:3px;
+    width:100%;
+    height: 100%;
+}
+
+.comentarios {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.graduacion{
+    display: inline-block;
+}
+
+.modal-header{
+align-items: center;
+
+}
+
+
+.imagenCircular{
+    width: 100%;
+    padding-top: 100%; 
+    border-radius: 50%;
+    background-color: darkseagreen;
+    border-style: dashed ;
+    border-color: black;
+}
+/*adaptar para responsive pantalla pequeña*/
+
+@media (max-width:800px) {
+    header {
+        flex-direction: column;
+    }
+
+
+}

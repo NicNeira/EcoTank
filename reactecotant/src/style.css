@@ -1,0 +1,85 @@
+
+html{
+    height: 100%;
+}
+
+#root{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+body{ 
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+footer{
+}
+#root{
+    height:100% !important;
+}
+#contenido{
+    height:100% !important;
+}
+
+.card-dispositivos {
+}
+
+.card-dispositivos:hover {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.caja1{
+    display: block;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.caja2{
+    margin: auto;
+    padding: 40px;
+    width: 400px;
+    background-color:rgb(223, 219, 219);
+    align-items: center;
+    border: 3px solid black;
+    border-style: groove;
+    text-align: center;
+    border-radius: 10px;
+}
+.error{
+    color: red;
+}
+.fondologin{
+    position: fixed;
+    z-index: -1;
+    opacity: .4;
+    overflow: hidden;
+}
+    
+.iconos {
+    font-size: 50px;
+}
+
+.bg-carrousel {
+    background-color: rgba(33, 37, 41, .95);
+    
+}
+
+.click {
+    cursor: pointer;
+}
+
+.nav-hover{
+    height: 100%;
+}
+.nav-hover:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+#precios{
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(148,148,148,1);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(148,148,148,1);
+    box-shadow: 0px 0px 10px 0px rgba(148,148,148,1);
+}

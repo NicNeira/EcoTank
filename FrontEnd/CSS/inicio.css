@@ -1,0 +1,47 @@
+@import url('./colores.css');
+
+
+header {
+    /*flex: horizontal*/
+    display: flex;
+    /*altura minima*/
+    min-height: 90px;
+    background-color: var(--color-nav);
+    /* background-color: rgb(30, 126, 62); */
+    /*eje principal*/
+    justify-content: space-between;
+    /*alinear verticalmente*/
+    align-items: center;
+    padding: 10px;
+}
+nav a {
+    font-weight: 90px;
+    padding-right: 2px;
+    color: black;
+
+}
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+.logo {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+
+}
+nav a:hover {
+    color: rgb(91, 143, 39);
+}
+form{
+width: 400px;
+height: 400px;
+background-color: rgba(103, 168, 93, 0.5);
+align-items: center;
+border: 3px solid black;
+text-align: center;
+border-radius: 5%;
+margin-top: 30px;
+
+}

@@ -1,0 +1,13 @@
+:root {
+    --color-nav: rgb(30, 126, 62);
+    --color-background: white;
+    --color-background2: rgb(252,255,180);
+    --color-bootstrap:   #198754;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}

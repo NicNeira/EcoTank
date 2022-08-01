@@ -1,0 +1,39 @@
+.container{
+text-align: center;
+}
+
+
+
+#ficha{
+padding-bottom: 150px;
+}
+
+.styleComentario{
+    background-image: url('./assets/img/cuaderno.png')  ;
+    background-size: contain;
+    padding:0;
+    vertical-align:middle;}
+    
+.imgPlanta{
+        background-image: url('./assets/img/planta.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 100px;
+        margin-inline: auto;
+
+}
+  
+  .fijar{
+    height:8%;
+    margin-bottom:800px;
+    overflow-y:scroll;}
+    
+.fijarPlanta{
+    min-height:400px;
+}.barra{
+    overflow-y: auto;
+}.stylePlanta{
+    background-image: url('./assets/img/cuaderno.png');
+    background-size: contain;
+}
